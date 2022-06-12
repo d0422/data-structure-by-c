@@ -20,7 +20,10 @@ void initqueue(struct queue *q)
 }
 int isempty(struct queue *q)
 {
-    return q->count == 0;
+    if (q->count == 0)
+        return 1;
+    else
+        return 0;
 }
 void enqueue(struct queue *q, int data)
 {
