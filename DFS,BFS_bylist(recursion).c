@@ -1,3 +1,4 @@
+// 근데 이제 인접리스트와 재귀를 곁들인
 #include <stdio.h>
 #include <stdlib.h>
 #define vertices 10
