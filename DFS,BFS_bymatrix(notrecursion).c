@@ -1,4 +1,5 @@
-// 인접행렬로 그래프 구현
+// 근데 이제 인접행렬을 곁들인
+// 근데 이제 재귀는 하지 않은
 #define vertices 10
 #include <stdio.h>
 #include <stdlib.h>
