@@ -1,4 +1,4 @@
-// 재귀형식 이진탐색트리 구성, 탐색
+// 근데 이제 재귀를 곁들인
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -67,8 +67,8 @@ int main()
     printf("\n");
     printf("전위 순회 : ");
     preorder(root);
-    printf("\n 중위순회 :");
+    printf("\n중위순회 : ");
     inorder(root);
-    printf("\n 후위순회 :");
+    printf("\n후위순회 : ");
     postorder(root);
 }
