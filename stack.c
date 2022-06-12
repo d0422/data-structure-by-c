@@ -1,4 +1,4 @@
-// 연결리스트 기반
+// 연결리스트 기반 스택
 #include <stdio.h>
 #include <stdlib.h>
 struct node
